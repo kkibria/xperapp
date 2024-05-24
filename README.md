@@ -13,7 +13,7 @@ poetry shell
 Use pyinstaller to build the executable,
 
 ```
-pyinstaller xper1.spec
+pyinstaller -F xper.spec
 ```
 
 this will create a directory,
