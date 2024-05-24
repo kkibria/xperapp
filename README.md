@@ -16,6 +16,5 @@ Use pyinstaller to build the executable,
 pyinstaller xper.spec
 ```
 
-this will create a directory,
-``xper``, inside ``dist`` where you will the the exe file. 
-You will need to copy the entire ``xper`` directory to run the executable.
+this will create an executable inside ``dist``. 
+You will need to copy the executable where you will run it from.
