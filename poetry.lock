@@ -224,7 +224,7 @@ pillow = "^10.3.0"
 type = "git"
 url = "https://github.com/kkibria/xper.git"
 reference = "HEAD"
-resolved_reference = "2a9bc34e9504197af6e1063a59b00cc0dc8f3446"
+resolved_reference = "01e2512d7fc092610939f0d39553da818a22e59d"
 
 [metadata]
 lock-version = "2.0"
