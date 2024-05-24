@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "xperapp"
+version = "0.1.0"
+description = ""
+authors = ["Khan Kibria <khan.kibria@gmail.com>"]
+readme = "README.md"
+packages = [{include = "xperapp", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pyinstaller = "^6.7.0"
+xper = {git = "https://github.com/kkibria/xper.git"}
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
